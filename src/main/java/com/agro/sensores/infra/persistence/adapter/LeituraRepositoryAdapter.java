@@ -2,14 +2,21 @@ package com.agro.sensores.infra.persistence.adapter;
 
 import com.agro.sensores.domain.model.Leitura;
 import com.agro.sensores.domain.model.Sensor;
+import com.agro.sensores.domain.model.Usuario;
 import com.agro.sensores.domain.repository.LeituraRepository;
 import com.agro.sensores.infra.persistence.entity.LeituraEntity;
 import com.agro.sensores.infra.persistence.entity.SensorEntity;
 import com.agro.sensores.infra.persistence.repository.JpaLeituraRepository;
 
+import lombok.RequiredArgsConstructor;
+
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Component;
+@Component
+@RequiredArgsConstructor
 public class LeituraRepositoryAdapter implements LeituraRepository {
 	private final JpaLeituraRepository jpa;
 	
@@ -21,6 +28,21 @@ public class LeituraRepositoryAdapter implements LeituraRepository {
 		return jpa.findAllBySensor_id(sensorId).stream()
 				.map(this::toDomain)
 				.collect(Collectors.toList());				
+	}
+
+	public Optional<Leitura> buscarPorId(Long id){
+		return jpa.findById(id.toString())
+				.map(this::toDomain);
+	}
+
+	public List<Leitura> buscarTodos(){
+		return jpa.findAll().stream()
+				.map(this::toDomain)
+				.collect(Collectors.toList());
+	}
+
+	public void deletar(Long id) {
+		jpa.deleteById(id.toString());
 	}
 	
 	// Mapper: Entity -> Domain
@@ -50,7 +72,7 @@ public class LeituraRepositoryAdapter implements LeituraRepository {
 		// neste passo, vamos criar uma "casca" de SensorEntity apenas com o ID 
 		// para que o JPA possa saber a qual sensor o id pertence
 		SensorEntity sensorEntity = new SensorEntity();
-		sensorEntity.setId(leitura.getSensor().getId()); // 
+		sensorEntity.setId(leitura.getSensorId().getId()); // 
 		
 		// retorna a Entity com os campos que, realmente, estão disponiveis no ocntexto
 		return new LeituraEntity(
