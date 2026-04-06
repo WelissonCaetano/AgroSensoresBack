@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.agro.sensores.domain.enums.UseRole;
+import com.agro.sensores.domain.enums.UserRole;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -39,10 +39,10 @@ public class UsuarioEntity implements UserDetails{
 		
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false)
-	private UseRole role;
+	private UserRole role;
 
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		if(this.role == UseRole.ADMIN) {
+		if(this.role == UserRole.ADMIN) {
 			return List.of(
 					new SimpleGrantedAuthority("ROLE_ADMIN"),
 					new SimpleGrantedAuthority("ROLE_USER")
