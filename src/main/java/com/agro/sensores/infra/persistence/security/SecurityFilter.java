@@ -4,6 +4,7 @@ package com.agro.sensores.infra.persistence.security;
 // porque precisamos saber quem está tentande acessar a aplicação
 
 import com.agro.sensores.infra.persistence.repository.JpaUsuarioRepository;
+import com.agro.sensores.infra.security.TokenService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
