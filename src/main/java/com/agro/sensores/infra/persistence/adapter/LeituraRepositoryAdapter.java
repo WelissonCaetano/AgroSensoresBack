@@ -6,23 +6,40 @@ import com.agro.sensores.domain.repository.LeituraRepository;
 import com.agro.sensores.infra.persistence.entity.LeituraEntity;
 import com.agro.sensores.infra.persistence.entity.SensorEntity;
 import com.agro.sensores.infra.persistence.repository.JpaLeituraRepository;
+import lombok.AllArgsConstructor;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
-
+@AllArgsConstructor
 public class LeituraRepositoryAdapter implements LeituraRepository {
 	private final JpaLeituraRepository jpa;
 	
 	public Leitura salvar(Leitura leitura) {
 		return toDomain(jpa.save(toEntity(leitura)));
 	}
-	
+
+	@Override
+	public Optional<Leitura> buscarPorId(Long id) {
+		return Optional.empty();
+	}
+
+	@Override
+	public List<Leitura> buscarTodos() {
+		return List.of();
+	}
+
 	public List<Leitura> buscarPorSensor(String sensorId){
 		return jpa.findAllBySensor_id(sensorId).stream()
 				.map(this::toDomain)
 				.collect(Collectors.toList());				
 	}
-	
+
+	@Override
+	public void deletar(Long id) {
+
+	}
+
 	// Mapper: Entity -> Domain
 	private Leitura toDomain(LeituraEntity entity) {
 		// precisamos converter o Sensor que no esquema
@@ -50,7 +67,7 @@ public class LeituraRepositoryAdapter implements LeituraRepository {
 		// neste passo, vamos criar uma "casca" de SensorEntity apenas com o ID 
 		// para que o JPA possa saber a qual sensor o id pertence
 		SensorEntity sensorEntity = new SensorEntity();
-		sensorEntity.setId(leitura.getSensor().getId()); // 
+		sensorEntity.setId(leitura.getSensorId().getId()); //
 		
 		// retorna a Entity com os campos que, realmente, estão disponiveis no ocntexto
 		return new LeituraEntity(

@@ -9,6 +9,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
+import org.jspecify.annotations.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
@@ -27,9 +28,9 @@ public class SecurityFilter extends OncePerRequestFilter {
     // de validação aconteça, exatamente, uma vez por requisição - para evitar processamentos redundantes
     @Override
     protected void doFilterInternal(
-            HttpServletRequest request, // Pedido da aplicação cliente
-            HttpServletResponse response, // Resposta do servidor
-            FilterChain filterChain // Sequência de filtragem
+            @NonNull HttpServletRequest request, // Pedido da aplicação cliente
+            @NonNull HttpServletResponse response, // Resposta do servidor
+            @NonNull FilterChain filterChain // Sequência de filtragem
     ) throws ServletException, IOException {
 
         // Definição da DIs
