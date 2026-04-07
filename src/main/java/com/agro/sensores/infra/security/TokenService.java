@@ -30,13 +30,13 @@ public class TokenService {
                 .sign(algoritimo);
     }
 
-    public String getSubject(String token) {
-        return JWT.require(Algorithm.HMAC256(secret))
-                .withIssuer("agro-sensores")
-                .build()
-                .verify(token)
-                .getSubject();
-    }
+//    public String getSubject(String token) {
+//        return JWT.require(Algorithm.HMAC256(secret))
+//                .withIssuer("agro-sensores")
+//                .build()
+//                .verify(token)
+//                .getSubject();
+//    }
 
     // Validar e extrair a data de expiração do token
     public String getToken(String token) {
