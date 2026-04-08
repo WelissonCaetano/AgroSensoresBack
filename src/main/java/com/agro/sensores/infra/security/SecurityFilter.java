@@ -29,7 +29,7 @@ public class SecurityFilter extends OncePerRequestFilter{
         String token = recuperarToken(request);
 
         if(token != null) {
-            String login = tokenService.getSubject(token);
+            String login = tokenService.getToken(token);
             var usuario = usuarioRepository.findByLogin(login);
             if(usuario.isPresent()) {
                 var autetication = new UsernamePasswordAuthenticationToken(

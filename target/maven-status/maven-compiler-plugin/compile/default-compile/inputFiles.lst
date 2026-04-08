@@ -1,36 +1,89 @@
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\AgroSensorApplication.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\enums\TipoSensor.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\enums\UserRole.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\exception\RecursoNaoEncontradoException.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\exception\RegraNegocioException.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\exception\ValidacaoException.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Alerta.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Area.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Leitura.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Regra.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Sensor.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Usuario.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\AlertaRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\AreaRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\LeituraRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\RegraRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\SensorRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\UsuarioRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\AlertaService.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\AreaService.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\LeituraService.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\RegraService.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\SensorService.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\strategy\ValidadorSensorStrategy.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\domain\strategy\ValidadorSoloStrategy.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\LeituraRepositoryAdapter.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\SensorRepositoryAdapter.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\UsuarioRepositoryAdapter.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\LeituraEntity.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\SensorEntity.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\UsuarioEntity.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaLeituraRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaSensorRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaUsuarioRepository.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\security\SecurityFilter.java
-C:\Users\julio.santos.azevedo\OneDrive - Avanade\Documentos\treinamentos\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\security\TokenService.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\AgroSensorApplication.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\AtualizarLocalizacaoSensorUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\AtualizarSensorUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\AutenticarUsuarioUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\CadastrarUsuarioUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\ListarSensoresComLeiturasUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\ListarSensoresUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\application\usecase\RegistrarLeituraUseCase.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\enums\TipoSensor.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\enums\UserRole.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\exception\RecursoNaoEncontradoException.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\exception\RegraNegocioException.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\exception\ValidacaoException.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Alerta.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Area.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Leitura.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Regra.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Sensor.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\SensorLocalizacao.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\model\Usuario.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\AlertaRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\AreaRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\LeituraRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\RegraRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\SensorLocalizacaoRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\SensorRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\repository\UsuarioRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\AlertaService.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\AreaService.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\LeituraService.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\RegraService.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\service\SensorService.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\strategy\ValidadorSensorStrategy.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\domain\strategy\ValidadorSoloStrategy.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\exception\DetalheErro.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\exception\GerenciadorDeErros.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\AlertaController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\AreaController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\AuthController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\AlertaRequest.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\AlertaResponse.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\AreaRequest.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\AreaResponse.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\AtualizarLocalizacaoDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\LeituraRequest.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\LeituraRequestDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\LeituraResponse.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\LoginRequestDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\RegraRequest.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\RegraResponse.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\SensorComLeiturasDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\SensorRequest.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\SensorResponse.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\SensorResponseDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\TokenResponseDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\UsuarioRequestDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\dto\UsuarioResponseDTO.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\LeituraController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\RegraController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\SensorController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\TelemetriaController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\api\UsuarioController.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\config\BeansConfig.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\config\OpenApiConfig.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\AlertaRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\AreaRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\LeituraRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\RegraRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\SensorLocalizacaoRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\SensorRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\adapter\UsuarioRepositoryAdapter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\AlertaEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\AreaEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\LeituraEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\RegraEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\SensorEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\SensorLocalizacaoEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\entity\UsuarioEntity.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaAlertaRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaAreaRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaLeituraRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaRegraRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaSensorLocalizacaoRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaSensorRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\repository\JpaUsuarioRepository.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\persistence\security\SecurityFilter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\security\SecurityConfiguration.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\security\SecurityFilter.java
+C:\Users\w.da.silva.leano\eclipse-workspace\projetoEmGrupo3\AgroSensoresBack\src\main\java\com\agro\sensores\infra\security\TokenService.java
