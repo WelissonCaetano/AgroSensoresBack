@@ -15,14 +15,15 @@ public class Leitura {
 	private Sensor sensorId;
 	private Double valor;
 	private LocalDateTime dataHora;
-
+	private String localizacao;
 	
 		
 		public Leitura(
 				Long id,
 				Sensor sensorId,
 				 Double valor,
-				 LocalDateTime dataHora
+				 LocalDateTime dataHora,
+				 String localizacao
 				) {
 		
 			if(sensorId == null) {
@@ -43,6 +44,7 @@ public class Leitura {
 			this.sensorId = sensorId;
 			this.valor = valor;
 			this.dataHora = dataHora;
+			this.localizacao = localizacao;
 	}
 		
 		public boolean isRecente() {

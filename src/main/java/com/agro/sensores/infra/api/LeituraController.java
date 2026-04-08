@@ -40,7 +40,9 @@ public class LeituraController {
 				new Sensor(request.getSensorId(), "temp", "temp",
 						com.agro.sensores.domain.enums.TipoSensor.SOLO, true),
 				request.getValor(),
-				request.getDataHora());
+				request.getDataHora(),
+				request.getSensorId()
+			);
 
 		Leitura salva = leituraService.criar(request.getSensorId(), leitura);
 

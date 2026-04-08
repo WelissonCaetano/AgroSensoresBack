@@ -27,7 +27,8 @@ public class LeituraService {
 				null,
 				sensor,
 				leitura.getValor(),
-				leitura.getDataHora());
+				leitura.getDataHora(),
+				leitura.getLocalizacao());
 
 		return leituraRepository.salvar(novaLeitura);
 	}

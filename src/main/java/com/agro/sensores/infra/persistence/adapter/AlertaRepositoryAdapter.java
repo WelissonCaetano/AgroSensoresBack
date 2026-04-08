@@ -73,7 +73,8 @@ public class AlertaRepositoryAdapter implements AlertaRepository {
 					entity.getLeitura().getId(),
 					sensorLeitura,
 					entity.getLeitura().getValor(),
-					entity.getLeitura().getDataHora());
+					entity.getLeitura().getDataHora(),
+					entity.getLeitura().getSensor().getLocalizacao());
 		}
 		
 		return new Alerta(

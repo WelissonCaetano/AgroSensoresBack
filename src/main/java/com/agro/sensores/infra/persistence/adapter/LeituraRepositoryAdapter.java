@@ -32,7 +32,8 @@ public class LeituraRepositoryAdapter implements LeituraRepository {
 				entitySalva.getId(),
 				leitura.getSensorId(),
 				entitySalva.getValor(),
-				entitySalva.getDataHora());
+				entitySalva.getDataHora(),
+				entitySalva.getSensor().getLocalizacao());
 	}
 	
 	public List<Leitura> buscarPorSensor(String sensorId){
@@ -74,7 +75,8 @@ public class LeituraRepositoryAdapter implements LeituraRepository {
 				entity.getId(),
 				sensorDomain,
 				entity.getValor(),
-				entity.getDataHora()
+				entity.getDataHora(),
+				entity.getSensor().getLocalizacao()
 				);
 	}
 	

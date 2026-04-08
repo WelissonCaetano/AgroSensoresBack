@@ -15,8 +15,11 @@ import com.auth0.jwt.algorithms.Algorithm;
 
 @Service
 public class TokenService {
-    @Value("${app.security.secret}")
+    @Value("${api.security.secret}")
     private String secret;
+
+    @Value("${api.security.expiration:2}")
+    private long expirationInHours;
 
     public String gerarToken(UsuarioEntity usuario) {
         // Implementação simples de geração de token (exemplo)
@@ -39,8 +42,7 @@ public class TokenService {
     }
 
     private Instant dataExpiracao() {
-        // Define a expiração do token (exemplo: 1 hora)
         return LocalDateTime.now()
-        .plusHours(2).toInstant(ZoneOffset.of("-3:00"));
+        .plusHours(expirationInHours).toInstant(ZoneOffset.ofHours(-3));
     }
 }
