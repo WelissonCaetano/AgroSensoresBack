@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  agro-sensores-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agro-sensores-api
+    ports:
+      - "8081:8081"
+    environment:
+      API_SECURITY_SECRET: default-dev-secret-123456
+      SPRING_PROFILES_ACTIVE: docker
+      SERVER_PORT: 8081
+    restart: unless-stopped
